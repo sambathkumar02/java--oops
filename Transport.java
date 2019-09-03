@@ -97,7 +97,7 @@ public class Transport{
         	 
         	 for(i=0;i<n;i++)
         	 {
-        		 
+        		 t[i]=new TransportVehicle();
         		 t[i].GetData(i);
         		 t[i].display(i);
         		 
@@ -109,6 +109,7 @@ public class Transport{
        	 	
        	 	for(i=1;i<=n;i++)
        	 	{
+       	 	 p[i]=new PrivateVehicle();
        		 p[i].GetData(i);
        		 p[i].display(i);
        		 
@@ -123,9 +124,3 @@ public class Transport{
         
     }
 }
-        
-        
-       
-        
-    
-    
